@@ -1,7 +1,7 @@
 const incrementBtn = document.querySelector("#incrementBtn");
 const decrementBtn = document.querySelector("#decrementBtn");
 const text = document.querySelector("#counter");
-let counter = 1;
+let counter = text.value;
 let output = "";
 
 incrementBtn.onclick = (e) => {

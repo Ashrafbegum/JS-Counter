@@ -1,0 +1,54 @@
+/* Colour variables */
+:root {
+    --primary-color: gray;
+    --secondary-color: #CEE5F2;
+    --background-color: #f5f5f5;
+    --white: #fff;
+    --blue: #0000FF;
+}
+  
+body {
+    background-color: var(--background-color);
+}
+  
+#container {
+    height:200px;
+    width: 500px;
+    border: 10px solid #888169;  
+    margin: auto;
+    margin-top: 50px;  
+    background-color:  transparent;
+}
+    
+h1 {
+    text-align: center;
+    color: var(--blue);
+}
+  
+input {
+    height:25px;
+    width: 250px;
+    margin: 50px auto auto 100px; 
+    border: 1px solid black;
+    text-align: center;
+    background-color: var(--white);
+}  
+  
+.btn {
+    background: var(--primary-color);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    box-shadow: 4px 5px 5px rgba(59, 77, 134, 0.4);
+    color: var(--white);
+    border-radius: 10px;
+    border: 1px solid #888169;
+    min-width: min(200px, 80%);
+    cursor: pointer; 
+}
+  
+.btn:focus {
+    background: var(--secondary-color);
+}  

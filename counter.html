@@ -8,16 +8,16 @@
     <meta name="description" content="Increment or decrement a counter">
     <meta name="author" content="Ashraf Unnisa Begum">
     <title>Counter</title>
+    <link rel="stylesheet" href="counter.css">
     <script src="counter.js" defer></script>
 </head>
 <body>
-    <div className="main_div">
-        <div className="center_div">
-            <input id="counter" type="text" name="counter" value="1" />
-            <div className="btn_div">
-                <button type="button" id="incrementBtn"> + </button>
-                <button type="button" id="decrementBtn"> - </button>
-            </div>
+    <h1> Counter</h1>
+    <div id="container">
+        <input id="counter" type="text" name="counter" value="1" />
+        <div>
+           <button class="btn" type="button" id="incrementBtn"> + </button>
+           <button class="btn" type="button" id="decrementBtn"> - </button>
         </div>
     </div>
 </body>
